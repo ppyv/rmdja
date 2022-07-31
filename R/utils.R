@@ -154,9 +154,7 @@ classify_system <- function(){
       } else {
         name <- "linux"
       }
-    else if(tolower(R.version$os)){
-      
-    } else {
+    else {
       name <- tolower(sysinfo["sysname"])
     }
   } else {
